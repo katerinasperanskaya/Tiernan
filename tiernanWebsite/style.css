@@ -2285,7 +2285,7 @@ html {
 }
 
 @media screen and (min-width: 40em) {
-  /* 640px */ /* For tablets?*/
+  /* 640px and larger*/ /* For tablets?*/
   html {
     font-size: 55.5%;
   }
@@ -2296,7 +2296,7 @@ html {
   }
 }
 @media screen and (min-width: 57.5em) {
-  /* 920px */ /* For large desktops? */
+  /* 920px and larger*/ /* For large desktops? */
   html {
     font-size: 62.5%;
   }
@@ -2470,7 +2470,7 @@ footer.footer a {
 }
 
 @media screen and (min-width: 43.75em) {
-  /* 700px */ /* that's between tablets and desktop */
+  /* 700px and larger*/ /* that's between tablets and desktop */
   .one_half,
   .one_third,
   .two_third,
@@ -2532,7 +2532,7 @@ footer.footer a {
   }
 }
 @media screen and (min-width: 75em) {
-  /* 1200px */
+  /* 1200px and larger*/
   .one_sixth {
     width: 13.33%;
   }
@@ -3967,5 +3967,11 @@ header.header nav,
   /* 767px */
   .hero {
     text-align: center;
+  }
+
+  @media screen and (max-width: 490px) {
+    .alignleft {
+      float: none;
+    }
   }
 }
